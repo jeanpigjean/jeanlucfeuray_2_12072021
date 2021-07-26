@@ -458,7 +458,7 @@ font-size: 11.3px;
 
 /****************************************************************/
 /** main**/
-main{width: 100%;}
+
 
 
 /** article_n1**/
@@ -518,7 +518,7 @@ width: 168px;
 height: 138px;
 background: white;
 border-radius: 10px;
-margin: 10px 0px 10px 5px;
+margin: 10px 0px 0px 0px;
 padding: 2px; 
 }
 
@@ -642,6 +642,14 @@ height: 140px;*/
 
 /*************************************************/
 /** activitées**/
+h2 {
+font-family: raleway-bold;
+font-weight: bold;
+font-size: 16px;
+margin: 10px 0px 0px 0px;
+}
+
+
 @media (max-width: 449px) { 
 
 .section_n3 {
@@ -679,25 +687,15 @@ padding: 0px 0px 20px 0px;
 }
 
 
+
+
+
 .tem1:nth-child(1) {
-display: flex;
-width: 100%;
-height: 30px;
-font-family: raleway-bold;
-font-weight: bold;
-align-items: center;
-padding-top: 20px;
-}
-
-
-
-
-.tem1:nth-child(2) {
 width: 210px;
 height:310px;
 }
 
-.tem1:nth-child(3) {
+.tem1:nth-child(2) {
 display: flex;
 flex-direction: column;
 justify-content: space-between;
@@ -705,12 +703,12 @@ height: 340px;
 width: 210px;
 }
 
-.tem1:nth-child(4) {
+.tem1:nth-child(3) {
 width: 210px;
 height:310px;
 }
 
-.tem1:nth-child(5) {
+.tem1:nth-child(4) {
 display: flex;
 flex-direction: column;
 justify-content: space-between;
