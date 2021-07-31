@@ -561,28 +561,29 @@ width: 200px;
 }
 }
 
-section.section_n3 {
+.section_n3 {
+/*width: 280px;*/
+/*height:340px;*/
+/** section.section_n3 
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
 width: 100%;
-/*justify-content: center;
-align-items: center;*/
+justify-content: center;
+align-items: center;
 /*padding: 20px 0px 40px 0px;
-margin: 0 25%;*/
+margin: 0 25%;
 
-/*margin: 0 auto;
-width: 90%; */
+margin: 0 auto;
+width: 90%; 
+margin: 30px 0px 0px 0px;
+padding: 0px 0px 0px 0px;*/
+
 }
 
 .article_n3 {
 display: flex;
 flex-wrap: wrap;
-justify-content: center;
-
-/*height: 380px;  380px**/
-
-/*padding: 0px 0px 20px 0px;*/
-/*margin: 0 auto;
-width: 90%;*/
-border: solid red 1px;
 width: 100%;
 }
 
@@ -590,7 +591,9 @@ width: 100%;
 font-family: raleway-bold;
 font-weight: bold;
 font-size: 12px;
-margin: 0px 0px 15px 15px;
+margin: 0px 0px 15px 20px;
+padding: 0px 0px 0px 0px;
+ 
 }
 
 .tem1 {
@@ -599,21 +602,24 @@ flex-direction: column;
 justify-content: space-between;
 font-family: raleway-bold;
 font-weight: bold;
-width: 300px;/** width: 210px; **/
+width: 280px;
 height:340px;
 box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
 border-radius: 20px;
-margin: 10px 0px 30px 10px;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
 }
 
 .tem111 {
-width: 80%;
+width: 100%;
 box-shadow: none;
 height: 30px;
-border: solid black 1px;
 font-family: raleway-bold;
 font-weight: bold;
 text-align: justify;
+margin: 0px 0px 20px 0px;
+padding: 0px 0px 0px 0px;
+}
 }
 
 .tem2 {
@@ -622,8 +628,10 @@ flex-direction: column;
 justify-content: space-between;
 font-family: raleway-bold;
 font-weight: bold;
-width: 300px;
+width: 280px;
 height:340px;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
 }
 
 /** 50% 210 x 155**/
@@ -631,23 +639,22 @@ height:340px;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
-
-width: 300px;
-height:155px;
-border: solid black 1px;
+width: 280px;
+height:170px;
 box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
 border-radius: 20px;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
 }
 
-/** 60% 210 x 186**/
 .sous2 {
 display: flex;
 flex-direction: column;
 justify-content: space-between;
 
-width: 300px;
+width: 280px;
 height:186px;
-border: solid black 1px;
+border: solid lime 1px;
 box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
 border-radius: 20px;
 }
@@ -657,10 +664,8 @@ border-radius: 20px;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
-
-width: 300px;
-height:124px;
-border: solid black 1px;
+width: 280px;
+height:154px;
 box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
 border-radius: 20px;
 }
@@ -672,48 +677,22 @@ border-radius: 20px;
 
 
 
-/*
-.tem1:nth-child(1) {
-width: 210px;
-height:310px;
-}
-
-.tem1:nth-child(2) {
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-height: 310px;
-width: 210px;
-}
-
-.tem1:nth-child(3) {
-width: 210px;
-height:310px;
-}
-
-.tem1:nth-child(4) {
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-height: 310px;
-width: 210px;
-
-}*/
 
 
 
 
-.activite_img1 {width: 300px;height: 300px;border-radius: 20px 20px 0px 0px;}
 
-.activite_img2 {width: 300px;height: 120px;border-radius: 20px 20px 0px 0px;}
+.activite_img1 {width: 280px;height: 300px;border-radius: 20px 20px 0px 0px;}
 
-.activite_img3 {width: 300px;height: 70px;border-radius: 20px 20px 0px 0px;}
+.activite_img2 {width: 280px;height: 120px;border-radius: 20px 20px 0px 0px;}
 
-.activite_img4 {width: 300px;height: 300px;border-radius: 20px 20px 0px 0px;}
+.activite_img3 {width: 280px;height: 70px;border-radius: 20px 20px 0px 0px;}
 
-.activite_img5 {width:300px ;height: 100px;border-radius: 20px 20px 0px 0px;}
+.activite_img4 {width: 280px;height: 300px;border-radius: 20px 20px 0px 0px;}
 
-.activite_img6 {width: 300px;height: 110px;border-radius: 20px 20px 0px 0px;}
+.activite_img5 {width:280px ;height: 100px;border-radius: 20px 20px 0px 0px;}
+
+.activite_img6 {width: 280px;height: 110px;border-radius: 20px 20px 0px 0px;}
 
 .bouge {
 /*height: 25px;*/
@@ -757,11 +736,14 @@ font-size: 12px;
 .footer {
 display: flex;
 justify-content: space-between;
-margin: 0px 0px 10px 0px;
+margin: 30px 0px 0px 0px;
+padding: 30px 0px 0px 0px;
+
 background: #f2f2f2;
 }
 .foot {
 padding: 0px 0px 10px 0px;
+width: 33%;
 }
 .gras22 {
 font-family: raleway-bold;
@@ -773,12 +755,14 @@ font-family: raleway;
 font-size: 11px;	
 padding: 0px 0px 0px 0px;
 }
-@media (max-width: 470px) { 
+@media (max-width: 560px) { 
 .footer {
 display: flex;
 flex-direction: column;
-align-items: center;
+align-items: flex-start;
 justify-content: center;
-margin: auto;
+
+/*margin: auto;*/
+padding: 35px 0px 0px 20px;
 }
 }
