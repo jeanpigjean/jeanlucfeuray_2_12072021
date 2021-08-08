@@ -7,13 +7,9 @@
     src: url("font/Raleway-Bold.ttf");}
 
 body {
-margin: 0px 30px 0px 15px;
+margin: 0px 25px 0px 15px;
 font-family: "raleway";
-/*background: url("11desktop1.png") no-repeat;*/
-/*margin: 0px 20px 0px 10px;*/
-/*width: 100%;*/
 }
-
 
 .logo_img{
 width: 75%;
@@ -59,9 +55,6 @@ font-weight: bold;
 font-size: 12px;
 margin: 4px 0px 0px 0px;
 }
-
-
-
 /********************************/
 /********************************/
 a {
@@ -78,11 +71,9 @@ grid-column-gap: 20px;
 align-items: center;
 }
 
-.heb.act.ins, a {/* .heb.act.ins, a:link */
+.heb.act.ins, a {
 text-decoration:  none;
 }
-
-
 
 @media (min-width: 500px) {
 .heb:hover {
@@ -107,7 +98,6 @@ padding-top:  12px;
 text-decoration-thickness: 5px;
 width: 100%;
 }
-
 }
 
 @media (max-width: 500px) {
@@ -115,8 +105,6 @@ header {
 display: grid;
 grid-template-columns:1fr 1fr ;
 grid-template-rows:1fr 40px 30px;
-/*grid-column-gap: 20px;*/
-/*align-items: center;*/
 padding: 0px 0px 0px 0px;
 margin: 0px 0px 20px 0px;
 }
@@ -172,7 +160,6 @@ margin: 0px 0px 0px 0px;
 color: #0065fc;
 }
 
-
 .heb.act.ins, a:hover {
 border-top: hidden;
 color: #0065fc;
@@ -180,41 +167,6 @@ color: #0065fc;
 }
 /*********************************************/
 /********************************************/
-/*@media (max-width: 700px) { 
-.recher {
-visibility: hidden;
-}
-
-
-.recher1 {
-visibility: hidden;
-}
-
-.recher2 {
-visibility: visible;
-}
-}
-
-@media (min-width: 700px) { 
-.recher {
-
-}
-
-.recher2 {
-visibility: hidden;
-}
-
-}
-
-.recher2 {
-visibility: hidden;
-background: #0065fc;
-width: 38.5px;
-border-radius: 10px 10px 10px 10px;
-}*/
-
-
-
 .recherche {
 display: flex;
 align-items: center;
@@ -223,7 +175,7 @@ height: 38px;
 margin: 0px;
 padding-top: 15px;
 padding-bottom: 20px;
-width: 350px;/** width: 320px; **/
+width: 350px;
 }
 
 .map {
@@ -437,23 +389,17 @@ border-top:  none;
 padding-top: 0;	
 }
 
-
 .article_n1 {
 display: flex;
 flex-wrap: wrap;
-/*height: 440px;*/
-/*align-items: center;*/
 justify-content: space-between;
 border-radius: 10px;
 background: #f2f2f2;
 margin: 0px 15px 0px 0px;
 padding: 0px 25px 0px 25px;
-/*width: 100%;*/
-/*width: 64%;*/
 }
 
 .item_n1 {	
-/*width: 230px;*/
 height: 175px;
 background: white;
 border-radius: 10px;
@@ -488,10 +434,8 @@ padding: 0px 0px 0px 0px;
 font-size: 10.5px;
 width: 100%;
 }
-
 /****/
 /****/
-
 aside {
 display: flex;
 flex-direction: column;
@@ -502,8 +446,6 @@ margin: 0px 20px 0px 20px;
 border-radius: 10px;
 background: #f2f2f2;
 }
-
-
 
 .texte_aside {
 display: flex;
@@ -516,7 +458,6 @@ padding: 0px 0px 30px 0px;
 font-size: 10.5px;
 width: 90%;
 }
-
 
 .item_n2 {
 display: flex;
@@ -531,8 +472,6 @@ padding: 0px 15px 45px 0px;
 background: #f2f2f2;
 }
 
-
-
 .tem22 {
 display: flex;
 justify-content: space-between;
@@ -544,8 +483,6 @@ height: 60px;
 background: #f2f2f2;
 }
 
-
-
 .aside_span {
 display: flex;
 }
@@ -556,10 +493,7 @@ display: flex;
 	justify-content: space-between;
 	padding: 0px 10px 0px 10px;
 	margin: 0px 0px 0px 0px;
-/*height: 124px;*/
 }
-
-
 
 .img_aside {
 	width: 120px;
@@ -569,13 +503,11 @@ display: flex;
 	padding: 3px 0px 0px 0px;
 }
 
-
 .aside_span a:hover{
 text-decoration: none;	
 border-top:  none;
 padding-top: 0;
 }
-
 
 h2 {
 font-family: raleway-bold;
@@ -583,17 +515,12 @@ font-weight: bold;
 font-size: 16px;
 margin: 10px 0px 0px 0px;
 }
-
-
-
-
 /*************************/
 /**activité à marseille**/
 .section_n3 {
 display: flex;
 justify-content: center;
 align-content: space-between;
-/*align-items: center;*/
 flex-wrap: wrap;
 }
 
@@ -605,18 +532,19 @@ font-family: raleway-bold;
 font-weight: bold;
 font-size: 12px;
 margin: 0px 0px 10px 15px;
-/*margin: 15px auto;milieux*/ 
 }
 
 .tem1, .tem4 {
 display: flex;
 flex-direction: column;
+flex-wrap: wrap;
 justify-content: space-between;
 font-family: raleway-bold;
 font-weight: bold;
 box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
 border-radius: 20px;
 margin: 5px 20px 5px 0px;
+
 }
 
 .tem2, .tem3, .tem5, .tem6 {
@@ -636,8 +564,6 @@ flex-direction: column;
 justify-content: space-between;
 }
 
-
-
 .tem0 {
 display: flex;
 flex-direction: column;
@@ -646,9 +572,6 @@ width: 100%;
 margin: 0px 0px 30px 0px;
 height: 30px;
 }
-
-
-
 .activite_img1 {width: 250px;height: 320px;border-radius: 20px 20px 0px 0px;}
 
 .activite_img2 {width: 250px;height: 150px;border-radius: 20px 20px 0px 0px;}
@@ -661,10 +584,8 @@ height: 30px;
 
 .activite_img6 {width: 250px;height: 130px;border-radius: 20px 20px 0px 0px;}
 
-
 /****************
 ****************/
-
 .footer {
 display: flex;
 justify-content: space-between;
