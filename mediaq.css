@@ -1,0 +1,72 @@
+
+/******************************/
+/** hebergement **/
+@media (max-width: 985px) { 
+.section_n1 {
+display: flex;
+flex-direction: column-reverse;
+align-items: center;
+align-content: space-between;
+justify-content: center;
+}
+.item_n2.tem22 {
+background: #f2f2f2;
+}
+.item_n2 {
+/*height: auto;*/
+}
+}
+
+
+@media (max-width: 985px) { 
+#article_n1 {
+background: white;
+justify-content: center;
+}
+#item_n1 {	
+width: 300px;
+}
+#img_hebergements1, #img_hebergements2, #img_hebergements3, #img_hebergements4, #img_hebergements5, #img_hebergements6 {
+width: 294px;
+}
+}
+
+
+
+/**********************************/
+/** activitées **/
+@media (max-width: 590px) { 
+#red1 {
+	width: 302px;
+	height:179px;
+}
+
+
+
+
+.activite_img1 {width: 302px;height: 159px;border-radius: 20px 20px 0px 0px;}
+
+.activite_img2 {width: 302px;height: 159px;border-radius: 20px 20px 0px 0px;}
+
+.activite_img3 {width: 302px;height: 159px;border-radius: 20px 20px 0px 0px;}
+
+.activite_img4 {width: 302px;height: 159px;border-radius: 20px 20px 0px 0px;}
+
+.activite_img5 {width:302px ;height: 159px;border-radius: 20px 20px 0px 0px;}
+
+.activite_img6 {width: 302px;height: 159px;border-radius: 20px 20px 0px 0px;}
+
+}
+
+/****************/
+/** footer **/
+@media (max-width: 560px) { 
+.footer {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+
+padding: 35px 0px 0px 20px;
+}
+}
