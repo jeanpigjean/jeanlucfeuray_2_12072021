@@ -7,9 +7,18 @@
     src: url("font/Raleway-Bold.ttf");}
 
 body {
-margin: 0px 25px 0px 15px;
+margin: 0px;
+padding: 0px;
 font-family: "raleway";
 }
+
+.page {
+margin: 0px 25px 0px 15px;
+
+}
+
+
+
 
 .logo_img{
 width: 75%;
@@ -30,16 +39,16 @@ font-family: raleway;
 font-size: 14px;	
 }
 
-.gris{
-color: #f2f2f2;
-width: 9px;
-height: 9px;
+.gris {
+color: #d3d3d3;
+/*width: 9px;#f2f2f2;
+height: 9px;*/
 }
 
-.bleu{
+.bleu {
 color: #0065fc;
-width: 9px;
-height: 9px;
+/*width: 9px;
+height: 9px;*/
 }
 
 .texte {
@@ -347,24 +356,35 @@ padding: 0px 10px 0px 10px;
 
 .info {
 display: flex;	
-padding: 0px 0px 0px 5px;
-height: 15px;
+margin: 0px 0px 0px 0px;
+height: 10px;
 }
 
 .infoi{
 	border: solid #f2f2f2 2px;
 	color: #0065fc;
-	width: 13px;
-	height: 13px;
+	width: 20px;
+	height: 20px;
 	border-radius: 50%;
-	margin: 10px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+
 }
 
-.fas, .fa-info, .fa-xs {
-width: 9px;
+i.fa-info {
+margin: 0px 0px 0px 7.5px;
+padding: 0px 0px 0px 0px;
+}
+
+
+.fas, .fa-xs {
+
+/*width: 9px;
 height: 9px;
 margin: 0px 0px 3px 0px;
-padding: 0px 0px 10px 3px;
+padding: 0px 0px 10px 3px;*/
+
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
 }
 
 .infoi_text{
@@ -493,6 +513,7 @@ display: flex;
 	justify-content: space-between;
 	padding: 0px 10px 0px 10px;
 	margin: 0px 0px 0px 0px;
+	height: 120px;
 }
 
 .img_aside {
@@ -589,8 +610,8 @@ height: 30px;
 .footer {
 display: flex;
 justify-content: space-between;
-margin: 30px 0px 0px 0px;
-padding: 30px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 15px;
 
 background: #f2f2f2;
 }
